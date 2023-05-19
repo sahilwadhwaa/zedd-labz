@@ -6,7 +6,7 @@ interface FunctionComponentProps {
 }
 
 const FunctionComponentExample: FunctionComponent<FunctionComponentProps> = (props) => {
-    return <h1>Hello, {props.name}! This is a Function Component.</h1>;
+    return <h1>Q1. Hello, {props.name}! This is a Function Component.</h1>;
 };
 
 
